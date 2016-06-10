@@ -1,0 +1,28 @@
+{
+  "name": "react-server",
+  "version": "1.0.0",
+  "description": "simple default setup for express server running react",
+  "engines" : { "node" : ">=6.0.0" }
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alex aivars",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "latest",
+    "babel-core": "latest",
+    "babel-plugin-transform-react-jsx": "latest",
+    "express": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "babel": {
+    "plugins": [
+      "transform-react-jsx"
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
